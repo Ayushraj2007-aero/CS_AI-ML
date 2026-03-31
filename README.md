@@ -1,5 +1,4 @@
 # README.md
-# =============================
 # BFS Word Ladder Solver
 
 ## Description
