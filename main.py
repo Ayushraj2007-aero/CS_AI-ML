@@ -7,7 +7,7 @@ def load_words(file_path):
 
 
 if __name__ == "__main__":
-    dictionary = load_words("words.txt")
+    dictionary = load_words("words_large.txt")
 
     start = input("Enter start word: ").lower()
     end = input("Enter end word: ").lower()
