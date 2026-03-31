@@ -1,0 +1,23 @@
+BFS Word Ladder Solver Project Report
+1. Introduction
+This project implements the Breadth-First Search (BFS) algorithm to solve the Word Ladder problem. It finds the shortest transformation sequence from a start word to an end word by changing one letter at a time.
+2. Objectives
+- To understand BFS algorithm
+- To apply BFS in solving real-world problems
+- To build an efficient word transformation system
+3. Methodology
+The project uses BFS to explore all possible word transformations level-by-level. Each word is treated as a node, and edges exist between words that differ by one letter.
+4. Algorithm
+1. Start with initial word
+2. Generate all valid one-letter transformations
+3. Add them to queue
+4. Repeat until target word is found
+5. Return shortest path
+5. Technologies Used
+Python, BFS algorithm, text dataset
+6. Output
+The system outputs the shortest transformation path and number of steps required.
+7. Applications
+Spell checking, NLP, word games, AI search problems
+8. Conclusion
+This project demonstrates how BFS can be effectively used to find shortest paths in problems like Word Ladder.
